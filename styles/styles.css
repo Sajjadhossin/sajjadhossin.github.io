@@ -183,7 +183,6 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(100%);
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
@@ -192,7 +191,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 10rem;
 }
 .header-content .right-header .name {
   font-size: 3rem;
@@ -526,7 +525,7 @@ section {
 
 .contact-content-con {
   display: flex;
-  padding-top: 3.5rem;
+  padding-top: 0.5rem;
 }
 .contact-content-con .left-contact {
   flex: 2;
@@ -543,7 +542,7 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 0.5rem;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
   margin: 0.3rem 0 !important;
@@ -560,7 +559,7 @@ section {
 }
 .contact-content-con .left-contact .contact-icon {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
@@ -589,7 +588,6 @@ section {
 }
 .contact-content-con .right-contact {
   flex: 3;
-  margin-left: 3rem;
 }
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
@@ -616,6 +614,7 @@ section {
 .contact-content-con .right-contact .submit-btn {
   display: flex;
   justify-content: flex-start;
+  margin-top: 1rem;
 }
 
 /*Independed components*/
@@ -928,7 +927,7 @@ section {
     margin: 0 auto;
   }
   .right-header .name {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
     text-align: center;
     padding-top: 3rem;
   }
